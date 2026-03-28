@@ -1,0 +1,161 @@
+*************************************************************;
+*  Assignment 1 (40 pts)                                    *;
+*  1. This assignment will be due on Friday, 2/06/2026 at   *;
+*     11:59 pm                                              *;
+*  2. Save this file in your own folder in order to edit it.*;
+*  3. Name your file as sas_hw1_last name_first name.       *;
+*  4. Follow the instructions to complete each step and use *;
+*     Comment to answer questions if there are any.         *;
+*     Carefully label each question as shown in practice 1. *;
+*  5. When you finish all the problems and are ready to     *;
+*     submit this assignment, download the .sas file and    *;
+*     submit it via Canvas.                                 *;
+*************************************************************;
+
+
+
+
+
+***********************************************************;
+*  PRACTICE 1  (16 pts)                                   *;
+*    1) Create a folder named homework under your course  *;
+*       data folder. (2 pts)                              *;
+*    2) Use the LIBNAME statement to create a library     *;
+*       named HOMEWORK with the file path of your homework*;
+*       folder.(2 pts)  Check the Libraries to verfiy the *;
+*       creation of the library. How many data files are  *;
+*       there? (2 pts)                                    *;                            
+*    3) Use the PROC IMPORT step to read the species      *;
+*       worksheet in the np_info.xlsx file from your data *;
+*       folder (pay attention to the path used). (2 pts)  *;
+*       Create a SAS table named species and output the   *;
+*       file to the HOMEWORK library and replace the table*;
+*       if it  exists.(2 pts)                             *;
+*    4) Use the PROC CONTENTS code to display the         *;
+*       descriptor portion of the homework.species table. *;
+*       Submit the program, and then view the output data *;
+*       and the results. (2 pts) How many observations    *;
+*       and variables are there? (2 pts) How many         *;
+*       numerical variables? (2 pts)                      *;
+***********************************************************;
+
+/* #1 Created a folder named homework */
+
+
+/* 2) Use the LIBNAME statement to create a library */
+libname HOMEWORK '/home/u64436407/STA 4133/Homework';
+
+/* Answer: There are no data files in the homework library; */
+
+
+/* 3) Use the PROC IMPORT step to read the species data sheet    *;
+*       worksheet in the np_info.xlsx file */ 
+proc import datafile= '/home/u64436407/my_shared_file_links/u64119051/data/np_info.xlsx' dbms=xlsx
+	out=homework.species replace;
+	sheet=species;
+run;
+	
+	
+/* 4) Proc contents step to view the descriptor portion of the data */
+proc contents data=homework.species;
+run;
+* Answer: There are 119259 observations, 13 variables, and
+ 0 numerical variables.
+ 
+ 
+***********************************************************;
+*  PRACTICE 2  ( 8 pts)                                   *;
+*    1) USe proc import to read np_traffic.csv. Create a  *;            
+*       SAS table named traffic to the homework library   *;
+*       and replace the table if it exists.               *;
+*       Examine all rows to determine type and lenghth of *; 
+*       each column.  (4 pts)                             *;
+*    2) Use the PROC CONTENTS code to display the         *;
+*       descriptor portion of the traffic table.          *;
+*       Submit the program, and then view the output data *;
+*       and the results. (2 pts)                          *;
+*    3) How many character variable are there? (2 pts)    *;
+***********************************************************;
+/* 1): Proc import to import np_traffic.csv */
+
+proc import datafile='/home/u64436407/my_shared_file_links/u64119051/data/np_traffic.csv' dbms=csv
+	out=homework.traffic replace;
+	guessingrows=max;
+run;
+
+
+/* 2): Using Proc Contents  */
+proc contents data=homework.traffic;
+run;
+
+
+/* 3) There are 5 character variables  */
+
+***********************************************************;
+*  PRACTICE 3 (8 pts)                                     *;
+*    1) Create a library named DATA using the path of     *;
+*       the data folder for SAS data. (2 pts) Check MY    *;
+*       Libraries or LOG to make sure it is successful.   *;
+*    2) Use PROC CONTENTS to read the data CLASS_NEW from *;
+*       the DATA library. (2 pts) How many variables are  *; 
+*       there? (2 pts)                                    *;
+*    3) Open the imported CLASS_NEW data from the DATA    *;
+*       library. How many variables are there? How many   *;
+*       observatiosn are there? (2 pts)                   *;
+***********************************************************;
+
+/* 1) Creating the DATA library, it was successful *; */
+/* *       the data folder */
+libname DATA base '/home/u64436407/my_shared_file_links/u64119051/data';
+
+
+/* 2) Using Proc Contents to read data */
+proc contents data=data.class_new;
+run;
+* There are five variables
+
+/* 3) There are 5 variables and 3 observations */
+
+***********************************************************;
+*  PRACTICE 4 (8 pts)                                     *;
+*    1) Open the Class.XLSX file in Excel to view the     *;
+*       data. Close the Excel file after you finish       *;
+*       viewing it.                                       *;
+*    2) Use the OPTIONS statement to ensure that          *;
+*       column names follow SAS naming conventions.       *;
+*       (2 pts)                                           *;
+*    3) Use the LIBNAME statement to define a library     *;
+*       named CLASS that connects to the CLASS.XLSX       *;
+*       workbook.  (2 pts)                                *;
+*    4) Highlight the OPTIONS and LIBNAME statements and  *;
+*       run the selected code. Use the navigation area to *;
+*       find the CLASS library.                           *;
+*    5) Use the PROC CONTENTS statement to read the       *;
+*       CLASS_TEACHERS table in the CLASS library. (2 pts)*;
+*    6) Add a statement to clear the CLASS library.       *;
+*       Highlight the entire program for this problem     *;
+*       and run the selected code. (2 pts)                *;
+***********************************************************;
+
+/* #1 Opened the file in Excel to view */
+
+
+/* #2 USe options to ensure new consistent with sas column name rules  */
+options validvarname=v7;
+
+
+/* #3 Libname statement to import an excel workbook */
+libname CLASS xlsx '/home/u64436407/my_shared_file_links/u64119051/data/class.xlsx';
+
+/* #4 options validvarname=v7; */
+
+options validvarname=v7;
+libname CLASS xlsx '/home/u64436407/my_shared_file_links/u64119051/data/class.xlsx';
+
+
+/* #5 Using the Proc contents to read data */
+proc contents data=class.class_teachers;
+run;
+
+/* 6) Deleting the library */
+libname CLASS clear;
