@@ -1,0 +1,8 @@
+  Obs  Origin   Type  totalprofit
+-----  ------  -----  -----------
+    1  Asia    SUV         $3,608
+    2  Asia    Sedan      $13,396
+    3  Europe  SUV         $3,505
+    4  Europe  Sedan       $2,550
+    5  USA     Sedan       $1,952
+

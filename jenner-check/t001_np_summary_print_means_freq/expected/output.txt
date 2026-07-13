@@ -1,0 +1,228 @@
+  Obs  Reg  Type               ParkName  DayVisits  TentCampers  RVCampers
+-----  ---  ----  ---------------------  ---------  -----------  ---------
+    1  IM   NP    Yellowstone               450000        12000       8000
+    2  IM   NP    Grand_Teton               180000         5000       3000
+    3  SE   NP    Everglades                220000            0       1500
+    4  SE   NP    Great_Smoky_Mountains     610000        15000       9000
+    5  PW   NP    Yosemite                  390000         9000       6000
+    6  PW   NP    Olympic                   145000         4000       2000
+    7  NC   NP    Badlands                   60000         1200        900
+    8  AK   NP    Denali                     30000          500        100
+    9  IM   NM    Devils_Tower               25000          300        200
+   10  SE   NM    Fort_Sumter                15000            0          0
+   11  PW   NM    Muir_Woods                 40000            0          0
+   12  NC   NM    Wind_Cave                  12000          200        150
+
+  Obs  Reg  Type               ParkName  DayVisits  TentCampers  RVCampers
+-----  ---  ----  ---------------------  ---------  -----------  ---------
+    1  IM   NP    Yellowstone               450000        12000       8000
+    2  IM   NP    Grand_Teton               180000         5000       3000
+    3  SE   NP    Everglades                220000            0       1500
+    4  SE   NP    Great_Smoky_Mountains     610000        15000       9000
+    5  PW   NP    Yosemite                  390000         9000       6000
+    6  PW   NP    Olympic                   145000         4000       2000
+    7  NC   NP    Badlands                   60000         1200        900
+    8  AK   NP    Denali                     30000          500        100
+    9  IM   NM    Devils_Tower               25000          300        200
+   10  SE   NM    Fort_Sumter                15000            0          0
+   11  PW   NM    Muir_Woods                 40000            0          0
+   12  NC   NM    Wind_Cave                  12000          200        150
+
+                                                  The MEANS Procedure
+
+ Variable           N               Mean            Std Dev           Minimum            Maximum
+ -----------------------------------------------------------------------------------------------
+ DayVisits         12     181416.6666667     200153.3313752     12000.0000000     610000.0000000
+ TentCampers       12       3933.3333333       5284.3393555         0.0000000      15000.0000000
+ RVCampers         12       2570.8333333       3272.7843535         0.0000000       9000.0000000
+ -----------------------------------------------------------------------------------------------
+
+                                                The UNIVARIATE Procedure
+                                                  Variable:  DayVisits
+
+                                                        Moments
+
+N                                 12    Sum Weights                       12
+Mean                   181416.666667    Sum Observations      2177000.000000
+Std Deviation          200153.331375    Variance              40061356060.606064
+Skewness                    1.167240    Kurtosis                    0.303681
+Uncorrected SS        835619000000.000000    Corrected SS          440674916666.666687
+Coeff Variation           110.327973    Std Error Mean          57779.289874
+
+                Basic Statistical Measures                
+
+Location                 Variability                      
+--------  -------------  -------------  ------------------
+Mean      181416.666667  Std Deviation       200153.331375
+Median    102500.000000  Variance       40061356060.606064
+Mode                  .  Range               598000.000000
+
+Quantiles (Definition 5) 
+
+Quantile         Estimate
+----------  -------------
+0% Min       12000.000000
+1%           12000.000000
+5%           12000.000000
+10%          15000.000000
+25% Q1       27500.000000
+50% Median  102500.000000
+75% Q3      305000.000000
+90%         450000.000000
+95%         610000.000000
+99%         610000.000000
+100% Max    610000.000000
+
+             Extreme Observations              
+
+Lowest                  Highest                
+--------  ------------  --------  -------------
+Value     12000.000000  Value     180000.000000
+Value     15000.000000  Value     220000.000000
+Value     25000.000000  Value     390000.000000
+Value     30000.000000  Value     450000.000000
+Value     40000.000000  Value     610000.000000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         3.139821674  0.009411395
+Sign                        6  0.000488281
+Signed Rank                78  0.002217859
+
+
+                                                The UNIVARIATE Procedure
+                                                 Variable:  TentCampers
+
+                                                        Moments
+
+N                                 12    Sum Weights                       12
+Mean                     3933.333333    Sum Observations        47200.000000
+Std Deviation            5284.339356    Variance              27924242.424242
+Skewness                    1.233203    Kurtosis                    0.245761
+Uncorrected SS        492820000.000000    Corrected SS          307166666.666667
+Coeff Variation           134.347611    Std Error Mean           1525.457375
+
+             Basic Statistical Measures              
+
+Location               Variability                   
+--------  -----------  -------------  ---------------
+Mean      3933.333333  Std Deviation      5284.339356
+Median     850.000000  Variance       27924242.424242
+Mode         0.000000  Range             15000.000000
+
+Quantiles (Definition 5)
+
+Quantile        Estimate
+----------  ------------
+0% Min          0.000000
+1%              0.000000
+5%              0.000000
+10%             0.000000
+25% Q1        100.000000
+50% Median    850.000000
+75% Q3       7000.000000
+90%         12000.000000
+95%         15000.000000
+99%         15000.000000
+100% Max    15000.000000
+
+            Extreme Observations            
+
+Lowest                Highest               
+--------  ----------  --------  ------------
+Value       0.000000  Value      4000.000000
+Value       0.000000  Value      5000.000000
+Value       0.000000  Value      9000.000000
+Value     200.000000  Value     12000.000000
+Value     300.000000  Value     15000.000000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         2.578461646  0.02566056
+Sign                      4.5  0.00390625
+Signed Rank                45  0.007685883
+
+
+                                                The UNIVARIATE Procedure
+                                                  Variable:  RVCampers
+
+                                                        Moments
+
+N                                 12    Sum Weights                       12
+Mean                     2570.833333    Sum Observations        30850.000000
+Std Deviation            3272.784353    Variance              10711117.424242
+Skewness                    1.193501    Kurtosis                   -0.029058
+Uncorrected SS        197132500.000000    Corrected SS          117822291.666667
+Coeff Variation           127.304416    Std Error Mean            944.771464
+
+             Basic Statistical Measures              
+
+Location               Variability                   
+--------  -----------  -------------  ---------------
+Mean      2570.833333  Std Deviation      3272.784353
+Median    1200.000000  Variance       10711117.424242
+Mode         0.000000  Range              9000.000000
+
+Quantiles (Definition 5)
+
+Quantile       Estimate
+----------  -----------
+0% Min         0.000000
+1%             0.000000
+5%             0.000000
+10%            0.000000
+25% Q1       125.000000
+50% Median  1200.000000
+75% Q3      4500.000000
+90%         8000.000000
+95%         9000.000000
+99%         9000.000000
+100% Max    9000.000000
+
+           Extreme Observations            
+
+Lowest                Highest              
+--------  ----------  --------  -----------
+Value       0.000000  Value     2000.000000
+Value       0.000000  Value     3000.000000
+Value     100.000000  Value     6000.000000
+Value     150.000000  Value     8000.000000
+Value     200.000000  Value     9000.000000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         2.721116621  0.019891713
+Sign                        5  0.001953125
+Signed Rank                55  0.005062153
+
+                                                   The FREQ Procedure
+
+                                 Cumulative    Cumulative
+Reg    Frequency    Percent     Frequency      Percent
+------------------------------------------------------------
+AK             1      8.33            1         8.33
+IM             3     25.00            4        33.33
+NC             2     16.67            6        50.00
+PW             3     25.00            9        75.00
+SE             3     25.00           12       100.00
+
+                                  Cumulative    Cumulative
+Type    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------
+NM              4     33.33            4        33.33
+NP              8     66.67           12       100.00

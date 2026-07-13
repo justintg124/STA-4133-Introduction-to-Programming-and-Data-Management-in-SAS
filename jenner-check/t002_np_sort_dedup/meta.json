@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_np_sort_dedup",
+  "source_file": "homework/sas_hw2_Gould_Justin qbu192.sas",
+  "source_blob_sha": "7872f7bcc2ae7337d4492363218a952180dfc761",
+  "source_commit": "cfd5aa912849304c0c7ff6023f8c9ee0e76a11de",
+  "notes": "PRACTICE 6 and 7: PROC SORT with BY descending Reg/ParkName + WHERE, and PROC SORT NODUP/DUPOUT dedup on hw2.np_largeparks. Substituted small inline DATALINES samples (including a deliberate duplicate row) for the two LIBNAME-based inputs; PROC SORT options unchanged from the original (the source script's own 'decending' typo on the BY statement was corrected to 'descending' to match the assignment's stated intent)."
+}

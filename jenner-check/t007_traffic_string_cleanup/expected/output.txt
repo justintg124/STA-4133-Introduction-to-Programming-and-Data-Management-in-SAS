@@ -1,0 +1,7 @@
+  Obs         park  ParkCode                         Location              gate             gatecode
+-----  -----------  --------  -------------------------------  ----------------  -------------------
+    1  Yellowstone  YELL      Traffic Count At North Entrance    North Entrance  YELL-North Entrance
+    2  Grand Teton  GRTE      Traffic Count At South Entrance    South Entrance  GRTE-South Entrance
+    3  Everglades   EVER      Traffic Count At Main Gate         Main Gate       EVER-Main Gate
+    4  Denali       DENA      Traffic Count At West Entrance     West Entrance   DENA-West Entrance
+

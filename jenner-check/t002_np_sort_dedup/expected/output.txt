@@ -1,0 +1,25 @@
+  Obs  Reg  Type               ParkName  DayVisits
+-----  ---  ----  ---------------------  ---------
+    1  SE   NP    Great_Smoky_Mountains     610000
+    2  SE   NP    Everglades                220000
+    3  PW   NP    Yosemite                  390000
+    4  PW   NP    Olympic                   145000
+    5  NC   NP    Badlands                   60000
+    6  IM   NP    Yellowstone               450000
+    7  IM   NP    Grand_Teton               180000
+    8  AK   NP    Denali                     30000
+
+  Obs               ParkName    Acres
+-----  ---------------------  -------
+    1  Everglades             1508538
+    2  Grand_Teton             310044
+    3  Great_Smoky_Mountains   522427
+    4  Olympic                 922650
+    5  Yellowstone            2219791
+    6  Yosemite                761747
+
+  Obs               ParkName    Acres
+-----  ---------------------  -------
+    1  Great_Smoky_Mountains   522427
+    2  Yellowstone            2219791
+
