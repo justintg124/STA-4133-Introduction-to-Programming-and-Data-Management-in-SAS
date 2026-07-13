@@ -1,0 +1,7 @@
+{
+  "bundle": "t007_traffic_string_cleanup",
+  "source_file": "homework/sas_hw5_Gould_Justin.sas",
+  "source_blob_sha": "2b2103ca342229fb62492d7324acf154334db0ba",
+  "source_commit": "cfd5aa912849304c0c7ff6023f8c9ee0e76a11de",
+  "notes": "PRACTICE 4: SCAN to test a trailing park-type code, SUBSTR+FIND to strip it, COMPBL+PROPCASE to normalize a location string, TRANWRD to blank out boilerplate text, and CATX to build a hyphenated code. Substituted a 4-row pipe-delimited inline sample with ParkName/ParkCode/Location columns for the author's LIBNAME-based hw5.np_monthlytraffic; string-manipulation logic unchanged from the original."
+}

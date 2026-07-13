@@ -1,0 +1,21 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA np_monthlytraffic
+
+NOTE: Processing inline DATALINES (4 lines)
+
+NOTE: Read 4 rows from DATALINES.
+NOTE: Wrote np_monthlytraffic (4 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA parks
+
+
+NOTE: Read 4 rows from np_monthlytraffic.
+NOTE: Wrote parks (4 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=parks
+
+NOTE: PROC PRINT completed: 4 observations printed, 5 variables

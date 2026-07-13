@@ -1,0 +1,11 @@
+  Obs  Reg               ParkName  DayVisits  OtherLodging    Acres  sqmiles  camping
+-----  ---  ---------------------  ---------  ------------  -------  -------  -------
+    1  IM   Yellowstone               450000         12000  2219791    3,468   21,400
+    2  IM   Grand_Teton               180000          4000   310044      484    8,600
+    3  SE   Everglades                220000             0  1508538    2,357    1,600
+    4  SE   Great_Smoky_Mountains     610000          3000   522427      816   25,500
+    5  PW   Yosemite                  390000          8000   761747    1,190   16,100
+    6  PW   Olympic                   145000          2000   922650    1,442    6,400
+    7  NC   Badlands                   60000           500   242756      379    2,230
+    8  AK   Denali                     30000          1000  4740912    7,408      680
+

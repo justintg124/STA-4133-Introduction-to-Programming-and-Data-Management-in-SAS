@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_np_summary_derived_cols",
+  "source_file": "homework/sas_hw3_Gould_Justin.sas",
+  "source_blob_sha": "8fdcc1c27abbfb5edbf03c98285744acd80a6b86",
+  "source_commit": "cfd5aa912849304c0c7ff6023f8c9ee0e76a11de",
+  "notes": "PRACTICE 3: DATA step deriving SqMiles (Acres * .0015625) and Camping (SUM of four camper columns), COMMA17. format, KEEP list. Substituted an 8-row inline DATALINES sample with the same column names for the author's LIBNAME-based hw3.np_summary; DATA step logic unchanged from the original."
+}

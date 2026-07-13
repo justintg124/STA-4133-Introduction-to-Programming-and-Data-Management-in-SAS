@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_np_summary_print_means_freq",
+  "source_file": "homework/sas_hw2_Gould_Justin qbu192.sas",
+  "source_blob_sha": "7872f7bcc2ae7337d4492363218a952180dfc761",
+  "source_commit": "cfd5aa912849304c0c7ff6023f8c9ee0e76a11de",
+  "notes": "PRACTICE 1: PROC PRINT / PROC MEANS / PROC UNIVARIATE / PROC FREQ on hw2.np_summary. Substituted a 12-row inline DATALINES sample with the same columns (Reg, Type, ParkName, DayVisits, TentCampers, RVCampers) in place of the author's LIBNAME-based np_summary table; the PROC steps and VAR/TABLES lists are unchanged from the original."
+}

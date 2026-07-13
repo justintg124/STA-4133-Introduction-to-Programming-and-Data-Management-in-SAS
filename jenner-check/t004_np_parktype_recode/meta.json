@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_np_parktype_recode",
+  "source_file": "homework/sas_hw3_Gould_Justin.sas",
+  "source_blob_sha": "8fdcc1c27abbfb5edbf03c98285744acd80a6b86",
+  "source_commit": "cfd5aa912849304c0c7ff6023f8c9ee0e76a11de",
+  "notes": "PRACTICE 5: IF-THEN/ELSE recoding of Type into ParkType (Park/Monument/Preserve/Seashore/River) with the LENGTH $8 fix the assignment calls out to stop truncation, then PROC FREQ. Substituted a 10-row inline DATALINES sample covering every branch (including the NPRE/PRE preserve codes) for the author's LIBNAME-based hw3.np_summary; recoding logic unchanged from the original."
+}

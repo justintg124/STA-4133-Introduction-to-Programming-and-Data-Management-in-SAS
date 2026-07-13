@@ -1,0 +1,7 @@
+{
+  "bundle": "t005_cars_running_profit",
+  "source_file": "homework/sas_hw4_Gould.sas",
+  "source_blob_sha": "e0a826b02c9bd3c5b1b0b420efec0116695b2872",
+  "source_commit": "cfd5aa912849304c0c7ff6023f8c9ee0e76a11de",
+  "notes": "PRACTICE 7: PROC SORT + DATA step BY-group running total (first./last. reset pattern) formatted as currency. Original targets sashelp.shoes, which Jenner's sashelp library does not currently ship; pointed the same unchanged accumulator logic at sashelp.cars (also SAS-shipped) using its Origin/Type columns in place of Region/Product and MSRP/Invoice in place of Sales/Returns."
+}

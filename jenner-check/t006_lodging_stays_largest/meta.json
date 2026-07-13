@@ -1,0 +1,7 @@
+{
+  "bundle": "t006_lodging_stays_largest",
+  "source_file": "homework/sas_hw5_Gould_Justin.sas",
+  "source_blob_sha": "2b2103ca342229fb62492d7324acf154334db0ba",
+  "source_commit": "cfd5aa912849304c0c7ff6023f8c9ee0e76a11de",
+  "notes": "PRACTICE 1: LARGEST(n, of cl:) for the top-3 yearly stay values, MEAN/ROUND for a rounded average, a subsetting IF to drop all-zero rows, and COMMA12. formatting via a format-list wildcard (format stay:). Substituted a 5-row inline DATALINES sample with CL2010-CL2017 columns (including one all-zero row to exercise the subsetting IF) for the author's LIBNAME-based hw5.np_lodging; DATA step logic unchanged from the original."
+}
