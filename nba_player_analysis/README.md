@@ -32,17 +32,22 @@ How does age impact NBA player performance?
 ## Visualizations
 
 ### Points by Age
-![Points by Age](images/points_by_age.png)
+
+![Points by Age](graphs/points_by_age.png)
 
 ### Player Efficiency Rating by Age
-![PER by Age](images/per_by_age.png)
+
+![PER by Age](graphs/per_by_age.png)
 
 ### Box Plus Minus by Age
-![BPM by Age](images/bpm_by_age.png)
+
+![BPM by Age](graphs/bpm_by_age.png)
 
 ### VORP by Age
-![VORP by Age](images/vorp_by_age.png)
 
-## Files
-- `nba_player_analysis.sas` — SAS analysis code
-- `nba_player_analysis_report` — Full project report
+![VORP by Age](graphs/vorp_by_age.png)
+
+## Project Files
+
+- [SAS Analysis Code](src/nba_player_analysis.sas)
+- [Full Project Report](nba_player_analysis_report.pdf)
