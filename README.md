@@ -1,5 +1,8 @@
 # NBA Player Performance Analysis
 
+## Author
+Justin Gould
+
 ## Overview
 Analyzed how age impacts NBA player performance using SAS and data from three NBA datasets.
 
@@ -43,6 +46,3 @@ How does age impact NBA player performance?
 ## Files
 - `nba_player_analysis.sas` — SAS analysis code
 - `nba_player_analysis_report` — Full project report
-
-## Author
-Justin Gould
