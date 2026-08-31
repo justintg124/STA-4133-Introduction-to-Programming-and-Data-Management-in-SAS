@@ -8,6 +8,7 @@ How does age impact NBA player performance?
 
 ## Tools & Skills
 - SAS
+- Microsoft Excel
 - Data Integration
 - Data Cleaning
 - Exploratory Data Analysis
