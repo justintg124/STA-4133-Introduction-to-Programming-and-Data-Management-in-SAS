@@ -51,3 +51,11 @@ How does age impact NBA player performance?
 
 - [SAS Analysis Code](src/nba_player_analysis.sas)
 - [Full Project Report](nba_player_analysis_report.pdf)
+
+## Data
+
+The analysis uses three original NBA datasets:
+
+- [Advanced Statistics](data/advanced_stats.csv)
+- [Per-Game Statistics](data/per_game_stats.csv)
+- [Player Salary](data/player_salary.csv)
